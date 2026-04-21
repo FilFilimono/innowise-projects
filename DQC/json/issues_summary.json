@@ -86,7 +86,7 @@
       "item_price": {
         "has_negative": true,
         "total_negative": 1,
-        "suggested_action": "remove"
+        "suggested_action": "remove_rows"
       },
       "item_cnt_day": {
         "has_negative": true,
