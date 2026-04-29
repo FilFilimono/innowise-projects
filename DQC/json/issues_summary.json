@@ -26,7 +26,7 @@
     "duplicates": {
       "has_duplicates": "True",
       "total_duplicates": "6",
-      "suggested_action": "remove"
+      "suggested_action": ""
     },
     "outliers": {
       "date_block_num": {
@@ -61,7 +61,7 @@
         "upper_threshold": 307980.0,
         "lower_threshold": 59200.0,
         "k": 2,
-        "suggested_action": "remove"
+        "suggested_action": ""
       },
       "item_cnt_day": {
         "has_outliers": true,
@@ -74,7 +74,7 @@
         "upper_threshold": 2169.0,
         "lower_threshold": 1000.0,
         "k": 2,
-        "suggested_action": "remove"
+        "suggested_action": ""
       }
     },
     "negative_values": {
@@ -86,12 +86,12 @@
       "item_price": {
         "has_negative": true,
         "total_negative": 1,
-        "suggested_action": "remove_rows"
+        "suggested_action": ""
       },
       "item_cnt_day": {
         "has_negative": true,
         "total_negative": 7356,
-        "suggested_action": "set_to_zero"
+        "suggested_action": ""
       }
     },
     "dtypes": {
