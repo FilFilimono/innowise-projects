@@ -1,0 +1,246 @@
+{
+  "sales_train": {
+    "missing": {
+      "has_missing": "False",
+      "total_missing": "0",
+      "missing_data": {},
+      "missing_pct": {
+        "date": 0.0,
+        "date_block_num": 0.0,
+        "shop_id": 0.0,
+        "item_id": 0.0,
+        "item_price": 0.0,
+        "item_cnt_day": 0.0
+      },
+      "columns": [],
+      "column_types": {
+        "date": "categorical",
+        "date_block_num": "numeric",
+        "shop_id": "numeric",
+        "item_id": "numeric",
+        "item_price": "numeric",
+        "item_cnt_day": "numeric"
+      },
+      "suggested_action": ""
+    },
+    "duplicates": {
+      "has_duplicates": "True",
+      "total_duplicates": "6",
+      "suggested_action": ""
+    },
+    "outliers": {
+      "date_block_num": {
+        "has_outliers": false,
+        "k_outliers": 0,
+        "total_outliers": 0,
+        "values_to_remove": [],
+        "suggested_action": ""
+      },
+      "shop_id": {
+        "has_outliers": false,
+        "k_outliers": 0,
+        "total_outliers": 0,
+        "values_to_remove": [],
+        "suggested_action": ""
+      },
+      "item_id": {
+        "has_outliers": false,
+        "k_outliers": 0,
+        "total_outliers": 0,
+        "values_to_remove": [],
+        "suggested_action": ""
+      },
+      "item_price": {
+        "has_outliers": true,
+        "k_outliers": 2,
+        "total_outliers": 258942,
+        "values_to_remove": [
+          307980.0,
+          59200.0
+        ],
+        "upper_threshold": 307980.0,
+        "lower_threshold": 59200.0,
+        "k": 2,
+        "suggested_action": ""
+      },
+      "item_cnt_day": {
+        "has_outliers": true,
+        "k_outliers": 2,
+        "total_outliers": 306477,
+        "values_to_remove": [
+          2169.0,
+          1000.0
+        ],
+        "upper_threshold": 2169.0,
+        "lower_threshold": 1000.0,
+        "k": 2,
+        "suggested_action": ""
+      }
+    },
+    "negative_values": {
+      "date_block_num": {
+        "has_negative": false,
+        "total_negative": 0,
+        "suggested_action": ""
+      },
+      "item_price": {
+        "has_negative": true,
+        "total_negative": 1,
+        "suggested_action": ""
+      },
+      "item_cnt_day": {
+        "has_negative": true,
+        "total_negative": 7356,
+        "suggested_action": ""
+      }
+    },
+    "dtypes": {
+      "date": "str",
+      "date_block_num": "int64",
+      "shop_id": "int64",
+      "item_id": "int64",
+      "item_price": "float64",
+      "item_cnt_day": "float64"
+    },
+    "shape": {
+      "rows": 2935849,
+      "columns": 6
+    }
+  },
+  "shops": {
+    "missing": {
+      "has_missing": "False",
+      "total_missing": "0",
+      "missing_data": {},
+      "missing_pct": {
+        "shop_name": 0.0,
+        "shop_id": 0.0
+      },
+      "columns": [],
+      "column_types": {
+        "shop_name": "categorical",
+        "shop_id": "numeric"
+      },
+      "suggested_action": ""
+    },
+    "duplicates": {
+      "has_duplicates": "False",
+      "total_duplicates": "0",
+      "suggested_action": ""
+    },
+    "outliers": {
+      "shop_id": {
+        "has_outliers": false,
+        "k_outliers": 0,
+        "total_outliers": 0,
+        "values_to_remove": [],
+        "suggested_action": ""
+      }
+    },
+    "negative_values": {},
+    "dtypes": {
+      "shop_name": "str",
+      "shop_id": "int64"
+    },
+    "shape": {
+      "rows": 60,
+      "columns": 2
+    }
+  },
+  "items": {
+    "missing": {
+      "has_missing": "False",
+      "total_missing": "0",
+      "missing_data": {},
+      "missing_pct": {
+        "item_name": 0.0,
+        "item_id": 0.0,
+        "item_category_id": 0.0
+      },
+      "columns": [],
+      "column_types": {
+        "item_name": "categorical",
+        "item_id": "numeric",
+        "item_category_id": "numeric"
+      },
+      "suggested_action": ""
+    },
+    "duplicates": {
+      "has_duplicates": "False",
+      "total_duplicates": "0",
+      "suggested_action": ""
+    },
+    "outliers": {
+      "item_id": {
+        "has_outliers": false,
+        "k_outliers": 0,
+        "total_outliers": 0,
+        "values_to_remove": [],
+        "suggested_action": ""
+      },
+      "item_category_id": {
+        "has_outliers": true,
+        "k_outliers": 2,
+        "total_outliers": 159,
+        "values_to_remove": [
+          0,
+          0
+        ],
+        "upper_threshold": 0.0,
+        "lower_threshold": 0.0,
+        "k": 2,
+        "suggested_action": ""
+      }
+    },
+    "negative_values": {},
+    "dtypes": {
+      "item_name": "str",
+      "item_id": "int64",
+      "item_category_id": "int64"
+    },
+    "shape": {
+      "rows": 22170,
+      "columns": 3
+    }
+  },
+  "item_categories": {
+    "missing": {
+      "has_missing": "False",
+      "total_missing": "0",
+      "missing_data": {},
+      "missing_pct": {
+        "item_category_name": 0.0,
+        "item_category_id": 0.0
+      },
+      "columns": [],
+      "column_types": {
+        "item_category_name": "categorical",
+        "item_category_id": "numeric"
+      },
+      "suggested_action": ""
+    },
+    "duplicates": {
+      "has_duplicates": "False",
+      "total_duplicates": "0",
+      "suggested_action": ""
+    },
+    "outliers": {
+      "item_category_id": {
+        "has_outliers": false,
+        "k_outliers": 0,
+        "total_outliers": 0,
+        "values_to_remove": [],
+        "suggested_action": ""
+      }
+    },
+    "negative_values": {},
+    "dtypes": {
+      "item_category_name": "str",
+      "item_category_id": "int64"
+    },
+    "shape": {
+      "rows": 84,
+      "columns": 2
+    }
+  }
+}
