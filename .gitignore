@@ -2,6 +2,7 @@
 __pycache__/
 .vscode/
 .DS_Store
-raw_data/sales_train.csv
-clean_data/*csv
+data/raw_data/sales_train.csv
+data/clean_data/*csv
+data/final_data/*csv
 tmp/*csv
