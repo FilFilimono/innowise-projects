@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+__pycache__/
+.vscode/
+.DS_Store
+data/raw_data/sales_train.csv
+data/clean_data/*csv
+data/final_data/*csv
+tmp/*csv
