@@ -6,3 +6,4 @@ data/raw_data/sales_train.csv
 data/clean_data/*csv
 data/final_data/*csv
 tmp/*csv
+data/final_data/*pkl
