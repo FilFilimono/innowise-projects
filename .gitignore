@@ -6,6 +6,9 @@ __pycache__/
 data/raw_data/sales_train.csv
 data/clean_data/*csv
 data/final_data/*csv
+data/final_data/*pkl
 tmp/*csv
-submission/*csv
+data/submission/*csv
 BaseLine/*png
+
+data/models/*joblib
