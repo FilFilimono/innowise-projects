@@ -16,3 +16,5 @@ data/submission/*csv
 BaseLine/*png
 
 data/models/*joblib
+1.md
+.gitkeep

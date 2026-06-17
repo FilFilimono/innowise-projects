@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "sales-ds-fil54638"          
+version = "0.1.0"
+description = "DS package for Predict Future Sales (Kaggle)"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=1.5",
+    "numpy>=1.23",
+    "catboost>=1.2",
+    "optuna>=3.0",
+    "optuna-integration>=3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sales_ds*"]
