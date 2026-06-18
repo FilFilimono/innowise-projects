@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: sales-ds-fil54638
+Version: 0.1.0
+Summary: DS package for Predict Future Sales (Kaggle)
+Requires-Python: >=3.9
+Requires-Dist: pandas>=1.5
+Requires-Dist: numpy>=1.23
+Requires-Dist: catboost>=1.2
+Requires-Dist: optuna>=3.0
+Requires-Dist: optuna-integration>=3.0

@@ -1,0 +1,5 @@
+pandas>=1.5
+numpy>=1.23
+catboost>=1.2
+optuna>=3.0
+optuna-integration>=3.0
