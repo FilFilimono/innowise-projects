@@ -2,20 +2,14 @@
 __pycache__/
 .vscode/
 .DS_Store
-data/raw_data/sales_train.csv
-data/clean_data/*csv
-data/final_data/*csv
+
 tmp/*csv
-data/final_data/*pkl
-data/raw_data/sales_train.csv
-data/clean_data/*csv
-data/final_data/*csv
-data/final_data/*pkl
+
 tmp/*csv
-data/submission/*csv
+Data
 BaseLine/*png
 
-data/models/*joblib
+
 1.md
 commands.txt
 .gitkeep
