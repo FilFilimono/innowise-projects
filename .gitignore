@@ -17,3 +17,4 @@ Data/raw_data
 Data/clean_data
 Data/final_data
 Data/test
+.env
