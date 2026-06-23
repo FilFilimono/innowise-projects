@@ -1,6 +1,5 @@
 name: Build and Push Docker Image
 
-# Запускается при каждом пуше в ветку master
 on:
   push:
     branches:
