@@ -1,0 +1,38 @@
+{
+  "os": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.5",
+  "startedAt": "2026-06-23T13:01:20.498833Z",
+  "program": "/Users/filimono/Documents/Innowise/BaseLine/baseline.ipynb",
+  "codePath": "/Users/filimono/Documents/Innowise/BaseLine/baseline.ipynb",
+  "codePathLocal": "baseline.ipynb",
+  "git": {
+    "remote": "git@github.com:FilFilimono/innowise-projects.git",
+    "commit": "b499d85fd31d982aaf8b03de230b7015ff956b65"
+  },
+  "email": "flippfil11@gmail.com",
+  "root": "/Users/filimono/Documents/Innowise/BaseLine",
+  "host": "MacBook-Air-Fil.local",
+  "executable": "/Users/filimono/Documents/Innowise/.venv/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "245708505088"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M3",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 16,
+    "swapTotalBytes": "8589934592",
+    "ramTotalBytes": "17179869184",
+    "macModel": "Mac15,12"
+  },
+  "writerId": "gwawu90ewy4h1ckfo58hlfwuxoh1brkq"
+}

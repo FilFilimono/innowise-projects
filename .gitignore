@@ -17,4 +17,6 @@ Data/raw_data
 Data/clean_data
 Data/final_data
 Data/test
+Data/model
 .env
+3.md

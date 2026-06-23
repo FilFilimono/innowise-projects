@@ -1,0 +1,67 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            gwawu90ewy4h1ckfo58hlfwuxoh1brkq:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 10
+                    macModel: Mac15,12
+                    memoryGb: 16
+                    name: Apple M3
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "8589934592"
+                codePath: /Users/filimono/Documents/Innowise/BaseLine/baseline.ipynb
+                codePathLocal: baseline.ipynb
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "245708505088"
+                email: flippfil11@gmail.com
+                executable: /Users/filimono/Documents/Innowise/.venv/bin/python
+                git:
+                    commit: b499d85fd31d982aaf8b03de230b7015ff956b65
+                    remote: git@github.com:FilFilimono/innowise-projects.git
+                host: MacBook-Air-Fil.local
+                memory:
+                    total: "17179869184"
+                os: macOS-26.3-arm64-arm-64bit-Mach-O
+                program: /Users/filimono/Documents/Innowise/BaseLine/baseline.ipynb
+                python: CPython 3.13.5
+                root: /Users/filimono/Documents/Innowise/BaseLine
+                startedAt: "2026-06-23T13:01:20.498833Z"
+                writerId: gwawu90ewy4h1ckfo58hlfwuxoh1brkq
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 5
+                - 7
+                - 8
+                - 35
+                - 53
+                - 105
+            "2":
+                - 5
+                - 7
+                - 8
+                - 35
+                - 53
+                - 105
+            "3":
+                - 2
+                - 13
+            "4": 3.13.5
+            "5": 0.27.2
+            "8":
+                - 1
+                - 2
+            "12": 0.27.2
+            "13": darwin-arm64
+data_dvc_commit:
+    value: not tracked
+ds_package_version:
+    value: 0.3.0

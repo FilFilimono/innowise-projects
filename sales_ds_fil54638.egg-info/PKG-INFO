@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: sales-ds-fil54638
-Version: 0.2.0
+Version: 0.3.0
 Summary: DS package for Predict Future Sales (Kaggle)
 Requires-Python: >=3.9
 Requires-Dist: pandas>=1.5

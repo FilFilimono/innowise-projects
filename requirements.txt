@@ -1,0 +1,15 @@
+# Твой пакет с Test PyPI
+--index-url https://test.pypi.org/simple/
+--extra-index-url https://pypi.org/simple/
+sales-ds-fil54638==0.3.0
+
+# ML зависимости
+catboost>=1.2
+optuna>=3.0
+optuna-integration>=3.0
+shap>=0.42
+joblib>=1.2
+
+# Эксперименты и данные
+wandb>=0.16
+dvc[dagshub]>=3.0

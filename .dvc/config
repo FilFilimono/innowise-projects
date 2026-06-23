@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = gdrive://1IoqqGU8behrAuAxBTJAmdWz3iF9r475p
+    url = https://dagshub.com/FilFilimono/Inno_Data.dvc
